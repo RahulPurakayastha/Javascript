@@ -14,7 +14,7 @@ function mintNFT (_name, _eyeColor, _shirtType, _bling) {
 function listNFTs () {
 for(let i=0 ; i < NFTs.length; i++){
     console.log("\nID : \t\t" + (i+1));
-    console.log("Name: \t\t" + NFTs[i].name);
+    console.log("Name: \t\t" + NFTs[i].name); 
     console.log("Eye Color : \t" + NFTs[i].eyeColor);
     console.log("Shirt Type : \t" + NFTs[i].shirtType);
     console.log("Bling : \t" + NFTs[i].bling);
